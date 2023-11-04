@@ -1,1 +1,1 @@
-A campus-wide delivery web app for the University of San Carlos.
+# Dear groupmates, please click this [link](https://github.com/firstcontributions/first-contributions) to learn how to contribute
