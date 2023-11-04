@@ -13,9 +13,7 @@ function LandingNavBar({ attr, pos = 'Start' }) {
   }
 
   return (
-    <nav
-      className={`fixed top-0 flex w-full space-x-4 px-5 py-2 ${posArr[pos]}`}
-    >
+    <nav className={`fixed top-0 flex w-full space-x-4 px-5 py-2 ${posArr[pos]}`}>
       {attr.map(({ key, title, url }) => (
         <a
           key={key}
