@@ -18,6 +18,7 @@ function App() {
         <Route path="/search" element={<Search />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/settings" element={<Settings />} />
+        <Route path="*" element={<h1>404: Page not found!</h1>} />
       </Routes>
     </Router>
   )
